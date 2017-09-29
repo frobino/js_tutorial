@@ -19,4 +19,12 @@
       <input id="m" autocomplete="off" /><button>Send</button>
     </form>
   </body>
+
+  <!--
+    load the socket.io-client, which exposes a io global, and then connect
+  -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    var socket = io();
+  </script>
 </html>
